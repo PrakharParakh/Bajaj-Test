@@ -1,5 +1,5 @@
 # Bajaj-Test
 
-![Simulator Screen Shot - iPhone 14 Pro - 2023-05-19 at 19 29 50](https://github.com/PrakharParakh/Bajaj-Test/assets/93584013/0789a63d-21ae-41f5-9668-d835bb52fcc2)
-![Simulator Screen Shot - iPhone 14 Pro - 2023-05-19 at 19 29 54](https://github.com/PrakharParakh/Bajaj-Test/assets/93584013/663f3999-0b3d-4d4d-b8f3-61d87b8a9df9)
-![Simulator Screen Shot - iPhone 14 Pro - 2023-05-19 at 19 30 01](https://github.com/PrakharParakh/Bajaj-Test/assets/93584013/edefaf8e-77c0-46d6-9c19-122025d3ea1f)
+![Simulator Screen Shot - iPhone 14 Pro - 2023-05-21 at 11 08 08](https://github.com/PrakharParakh/Bajaj-Test/assets/93584013/bdba79d9-2665-4aa3-a0d9-8766c7277f34)
+![Simulator Screen Shot - iPhone 14 Pro - 2023-05-21 at 11 08 14](https://github.com/PrakharParakh/Bajaj-Test/assets/93584013/66dda8e9-f103-40e4-b4c7-ddc9f5b96fde)
+![Simulator Screen Shot - iPhone 14 Pro - 2023-05-21 at 11 08 18](https://github.com/PrakharParakh/Bajaj-Test/assets/93584013/4b10b4a5-159a-4ec7-903b-ae8ebd8b1e82)
