@@ -29,23 +29,23 @@ struct DetailView: View {
                         .padding(.bottom)
                     
                     VStack{
-                        ForEach(0..<empdetail[0].projects!.count,id:\.self) { i in
+                        ForEach(0..<(empdetail[0].projects?.count ?? 0),id:\.self) { i in
                             VStack(alignment:.leading,spacing: 10){
                                 Text("\(empdetail[0].projects![i].name)")
                                     .fontWeight(.bold)
                                 Text("\(empdetail[0].projects![i].description?.rawValue ?? "Nil")")
                                 Text("Team")
                                     .fontWeight(.bold)
-                                ForEach(0..<empdetail[0].projects![i].team.count) { j in
-                                    HStack{
-                                        Text("Name: \(empdetail[0].projects![i].team[j].name ?? "Nil"),")
-                                        Text("Role: \(empdetail[0].projects![i].team[j].role.rawValue)")
-                                    }
-                                    
-                                }
+//                                ForEach(0..<empdetail[0].projects![i].team.count) { j in
+//                                    HStack{
+//                                        Text("Name: \(empdetail[0].projects![i].team[j].name ?? "Nil"),")
+//                                        Text("Role: \(empdetail[0].projects![i].team[j].role.rawValue)")
+//                                    }
+//
+//                                }
                                 Text("Task")
                                     .fontWeight(.bold)
-                                ForEach(0..<empdetail[0].projects![i].tasks!.count) { k in
+                                ForEach(0..<(empdetail[0].projects![i].tasks?.count ?? 0)) { k in
                                     HStack{
                                         Text("Id: \(empdetail[0].projects![i].tasks![k].id),".replacingOccurrences(of: "integer", with: "") as String)
                                         Text("Name: \(empdetail[0].projects![i].tasks![k].name?.rawValue ?? "Nil")," )

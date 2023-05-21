@@ -8,7 +8,7 @@
 import Foundation
 
 // MARK: - Projects
-struct Projects: Codable {
+struct Projects: Codable{
     let employees: [Employee]
 }
 
